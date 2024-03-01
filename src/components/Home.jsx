@@ -42,7 +42,7 @@ const Home = () => {
           </div>
         </div>
         <div>
-            <img src={HeroImage} alt="my Profile" className="rounded-full mx-auto w-2/3 md:w-full" size={-10}/>
+            {/* <img src={HeroImage} alt="my Profile" className="rounded-full mx-auto w-1/3 md:w-full" size={-10}/> */}
         </div>
       </div>
     </div>
