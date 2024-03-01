@@ -31,7 +31,7 @@ const Home = () => {
             </Link>
 
            <a href="/resume.pdf" download={true} className= "group" >
-      <button className="bg-gradient-to-r  from-cyan-500 to-blue-500 hover:bg-blue-700 text-white font-bold py-3 px-6 my-2 rounded inline-flex items-center lg:animate-pulse sm:animate-spin">
+      <button className="bg-gradient-to-r  from-cyan-500 to-blue-500 hover:bg-blue-700 text-white font-bold py-3 px-6 my-2 rounded inline-flex items-center lg:animate-pulse">
         <span>Resume </span>
         <FiDownloadCloud size={25} className=" ml-2" />
       </button>
