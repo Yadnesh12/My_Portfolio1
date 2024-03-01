@@ -7,7 +7,7 @@ const About = () => {
         <div className='pb-8'>
           <p className='text-4xl font-bold inline border-b-4 border-gray-500'>About</p>
         </div>
-        <p className='text-xl mt-20'>
+        <p className='text-xl lg:mt-20 sm:mt-10'>
           • Engineered and optimized frontend Components using React.JS,
           improving site performance by 30%. <br />
           • Utilized SonarQube to identify and rectify code quality issues and security vulnerabilities. <br />
@@ -20,7 +20,7 @@ const About = () => {
         </p>
         <br />
         <p className='text-xl'> 
-            More Details to be added
+          
         </p>
       </div>
     </div>
