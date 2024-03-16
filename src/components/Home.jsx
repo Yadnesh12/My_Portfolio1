@@ -3,6 +3,7 @@ import HeroImage from "../assets/heroImage.png";
 // import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 import { FiDownloadCloud } from 'react-icons/fi';
 // import { Link } from "react-scroll";
+import {ReactTyped} from 'react-typed'
 
 const Home = () => {
   return (
@@ -12,11 +13,21 @@ const Home = () => {
     >
       <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row">
         <div className="flex flex-col justify-center h-full">
-          <h2 className="text-4xl sm:text-7xl font-bold text-white">
+          {/* <h2 className="text-4xl sm:text-7xl font-bold text-white">
             I'm a FrontEnd Developer
-          </h2>
+          </h2> */}
+          <ReactTyped strings={[
+              "I'm FrontEnd Developer",
+              "I'm JavaScript Developer"
+            ]}
+            typeSpeed ={40}
+            backSpeed ={50}
+            loop >
+              <input className="bg-transparent  flex-shrink text-3xl sm:text-5xl font-bold text-white"/>
+           
+          </ReactTyped>
           <p className="text-gray-500 py-4 max-w-md">
-            I have 2.5 years of experience in building and designing applications at Infosys
+            I have 2.6 years of experience in building and designing applications at Infosys
             Limited, Specializing in React.JS, JavaScript and Oracle Jet.
             Proficient in Agile Methodologies, leading a successful Project and
             delivering optimizes Solution.
@@ -46,8 +57,8 @@ const Home = () => {
 
           </div>
         </div>
-        <div>
-            <img src={HeroImage} alt="my Profile" className="rounded-full mx-auto w-2/3 md:w-full" />
+        <div className="object-right">
+            <img src={HeroImage} alt="my Profile" className="rounded-full mx-auto w-2/3 md:w-full object-right ml-9" />
         </div>
       </div>
     </div>

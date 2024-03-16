@@ -8,15 +8,12 @@ const About = () => {
           <p className='text-4xl font-bold inline border-b-4 border-gray-500'>About</p>
         </div>
         <p className='text-xl lg:mt-20 sm:mt-10'>
-          • Engineered and optimized frontend Components using React.JS,
-          improving site performance by 30%. <br />
-          • Utilized SonarQube to identify and rectify code quality issues and security vulnerabilities. <br />
-          •Conducted comprehensive code reviews to enforce best practices and
-          ensure a clean, scalable codebase. <br />
-          • Implemented a caching mechanism,resulting in a 40% faster application load time. <br />
-          • Created custom components to enhance code readability and decrease overall code <br />
-          • Contributed to an Agile project, employing agile-driven strategies
-          that enhanced team performance in various activities.
+        •	Developed multiple custom components for enhanced application performance and reduced code duplication across various sections of the application.<br/>
+        •	Utilized SonarQube to identify and rectify code quality issues and security vulnerabilities.  <br/>
+        •	Conducted comprehensive code reviews to enforce best practices and ensure a clean, scalable codebase.  <br/>
+        •	Implemented a caching mechanism, resulting in a 40% faster application load time.  <br/>
+        •	Created custom components to enhance code readability and reduce overall code size.  <br/>
+        •	Contributed to an agile project, applying agile-driven strategies that enhanced team performance in various activities.  <br/>
         </p>
         <br />
         <p className='text-xl'> 
