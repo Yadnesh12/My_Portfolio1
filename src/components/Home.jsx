@@ -27,7 +27,7 @@ const Home = () => {
            
           </ReactTyped>
           <p className="text-gray-500 py-4 max-w-md">
-            I have 2.6 years of experience in building and designing applications at Infosys
+            I have 3 years of experience in building and designing applications at Infosys
             Limited, Specializing in React.JS, JavaScript and Oracle Jet.
             Proficient in Agile Methodologies, leading a successful Project and
             delivering optimizes Solution.
