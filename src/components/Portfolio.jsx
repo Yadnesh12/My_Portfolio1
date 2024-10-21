@@ -13,23 +13,23 @@ const Portfolio = () => {
       src: weatherApp,
       link:"https://yadneshweatherapp.netlify.app/",
       code:"https://github.com/Yadnesh12/Weather-app-React",
-    },
-    {
-      id: 2,
-      src: reactParallax,
-    },
-    {
-      id: 3,
-      src: navbar,
-    },
-    {
-      id: 4,
-      src: reactSmooth,
-    },
-    {
-      id: 5,
-      src: installNode,
-    },
+    }
+    // {
+    //   id: 2,
+    //   src: reactParallax,
+    // },
+    // {
+    //   id: 3,
+    //   src: navbar,
+    // },
+    // {
+    //   id: 4,
+    //   src: reactSmooth,
+    // },
+    // {
+    //   id: 5,
+    //   src: installNode,
+    // },
     
   ];
 
